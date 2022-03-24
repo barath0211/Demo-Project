@@ -13,7 +13,6 @@
   p1 {
       top: 18%;
       width: 485;
-      font-family: ;
   }
   
   li a:hover:not(.active) {
@@ -23,23 +22,31 @@
   .active {
     background-color: #0bc7f7;
   }
-  .bk {
+  .banner-styling {
+    background-image: url(./Images/cf53118a-260c-4c88-1a3e-07bdd3ca1ac8.jpg);
+  }
+   /* .bk {
+     float: left;
    width: 20%;
-   float: left;
    margin-left: auto;
    margin-right: 0px;
 padding: 40px;
-  
-      }
-      .bk img {
-         height: 691px;
+   } */
+      .banner-image {
+        display: inline-block;
+        position: relative;
+        left: 55%;
       }
     .nav {
       display: flex;
       align-items: center;
       justify-content: space-between;
       width: 100%;
-
+    }
+    .nav img {
+      margin-left: 20px;
+      width: 80px;
+      height: 80px;
     }
     ul {
       list-style-type: none;
@@ -72,34 +79,156 @@ padding: 40px;
   font-size: 17px;
     }
 
-    /* .taxi {
+     .taxi {
       display:flex; 
       flex-wrap: nowrap;
-      align-content:right;
+       align-content:center;
+       align-items: center;
       flex-direction: row;
-      justify-content: flex-end;
-    }  */
+       justify-content:space-around;
+    }  
     .carim {
+      display: flex;
+      background-color: white;
+      justify-content: space-around;
+      width: 1140px;
+      height: 599px;
+      padding-top:  30px;
+      padding-left: 30px; 
+      align-items: center;
+      
+    }  
+    .carim1 {
       background-color: #fce92a;
-      margin-bottom: 20px;
-      margin-top: 20px;
+      padding-top:  30px;
+      padding-left: 30px; 
+      padding-right: 30px;
+      padding-bottom: 30px;
       margin-left: 20px;
       margin-right: 20px;
-      background-size: cover;
-      width: 305px;
-      height: 333px;
-      padding: 10px;
-      
-    }
-    .carim1 {
-      background-image: url(/we.jpg);
-    
+      margin-top: 20px;
+      margin-bottom: 20px;
+   
     }
     .carim2 {
-      background-image: url(/ccer.jpg);
+      background-color: #fce92a;
+      padding-top:  30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     .carim3 {
-      background-image: url(/xxccx.jpg);
-
+      background-color: #fce92a;
+      padding-top:  30px;
+      padding-left: 30px;
+      padding-right: 30px;
+      padding-bottom: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
-  
+    .carim1 img {
+      height: 333px;
+      width: 305px;
+    
+    }
+    .carim2 img {
+      height: 333px;
+      width: 305px;
+    }
+    .carim3 img {
+      height: 333px;
+      width: 305px;
+}
+.carim1 h1,p {
+  padding: 10px;
+  text-align: center;
+}
+.carim2 h1,p {
+  padding: 10px;
+  text-align: center;
+}
+.carim3 h1,p {
+  padding: 10px;
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  background-color: white;
+  padding: 10px;
+  width: 400px;
+  height: 285px;
+  column-gap: 50px;
+  grid-template-rows: auto;
+  float:left;
+  padding-left: 400px; 
+  padding-top: 150px;
+}
+.grid1 {
+text-align: left;
+width: 40px;
+height: 285px;
+font-size: 18px;
+padding-right: 70px;
+}
+.grid2 {
+font-size: 45px;
+  width: 460px;
+height: 70px;
+text-align: left;
+
+}
+.box {
+  border: 5px solid #f1c50e;
+  width: 297px;
+  height: 60px;
+  background-color: #f1c50e;
+  margin-left: 70px;
+  margin-top: 25px;
+}
+.grid-container2 {
+  display: grid;
+  background-color: white;
+  padding: 10px;
+  width: 460px;
+  height: 285px;
+  column-gap: 50px;
+  grid-template-rows: auto;
+  float: right;
+  padding-right: 730px;
+  padding-top: 110px;
+}
+.grid3 {
+  display: grid;
+  width:460px;
+height: 285px;
+padding-top: 228px;
+
+}
+.grid4 {
+  display: grid;
+  padding-top: 355px;
+text-align: center;
+  width: 460px;
+height: 285px;
+font-size: 18px;
+}
+.second-grid {
+  display: grid;
+  grid-template-rows: auto;
+background-color: #f1c50e;
+height: 1000px;
+width: 100px;
+
+}
+.secgrid1 {
+  display: grid;
+}
+.secgrid2 {
+display: grid;
+}
